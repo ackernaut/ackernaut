@@ -1,10 +1,10 @@
-<?php
+  <?php
 /**
  * @package WordPress
  * @subpackage Genesis
  */
 ?>
-<div id="push"></div>
+  <div id="push"></div>
 </div>
 <footer id="global">
   <div id="footer"><img id="ackernaut" src="/wp-content/themes/ackernaut/style/img/ackernaut.png" width="240" height="280" alt="Howdy from the Ackernaut!"/>
