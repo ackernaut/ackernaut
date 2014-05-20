@@ -26,7 +26,7 @@
       <li><a href="http://www.ackernaut.com/work/" title="Work &ndash; Tests from the Space Station"><span>Work</span><span class="desc"> Tests from the Space Station</span></a></li>
       <li><a href="http://www.ackernaut.com/about/" title="About &ndash; Peak into the Top Secret Profile"><span>About</span><span class="desc"> Peak into the Top Secret Profile</span></a></li>
     </ul>
-    <p id="site-info">Copyright 2010-2013 All rights reserved <br/>
+    <p id="site-info">Copyright 2010-2014 All rights reserved <br/>
       <a href="http://www.ackernaut.com/about/#design" title="About the design of this site">About the design of this site</a></p>
   </div>
 </footer>
