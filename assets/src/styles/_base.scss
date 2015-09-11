@@ -1,0 +1,121 @@
+
+// _base.scss
+// scss-lint:disable ImportantRule, VendorPrefix
+
+// Box sizing
+// ----------
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Reset some basic elements
+// -------------------------
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+// Base typography
+// ---------------
+
+body {
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: $base-line-height;
+  -webkit-text-size-adjust: 100%;
+}
+
+// Set 'margin-bottom' to maintain vertical rhythm
+// -----------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0 0 1em;
+}
+
+// Images
+// ------
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+// Lists
+// -----
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+// Headings
+// --------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+// Links
+// -----
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: darken($brand-color, 15%);
+  }
+}
+
+// Address
+// -------
+
+address {
+  font-style: normal;
+}
+
+// Clearfix utility class
+// ----------------------
+
+.clearfix {
+  @include clearfix;
+}

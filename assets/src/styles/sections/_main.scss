@@ -1,0 +1,81 @@
+
+// _main.scss
+
+.viewport {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+.main {
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.ackernaut {
+  display: block;
+  margin: 0 auto 3rem;
+  height: calc(36px * 10);
+  width: calc(23px * 10);
+}
+
+.heading {
+  color: $aknt-light-green;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 2rem 0 .2em;
+
+  @include bp(30rem) {
+    font-size: 2.5rem;
+  }
+}
+
+.tagline {
+  color: $aknt-medium-green;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 2em;
+
+  @include bp(30rem) {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  sup {
+    font-size: .75rem;
+    text-transform: uppercase;
+
+    @include bp(30rem) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.in-the-wild {
+  color: $aknt-darkest-gray;
+  margin: 2em 0;
+}
+
+.label {
+  display: inline-block;
+  min-width: 140px;
+  text-align: right;
+}
+
+.link {
+  display: inline-block;
+  min-width: 100px;
+  text-align: left;
+}
+
+.footer {
+  color: $aknt-dark-gray;
+  font-size: .75rem;
+  margin: 0;
+  padding: 0;
+}

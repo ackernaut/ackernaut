@@ -1,0 +1,19 @@
+exclude:
+  - '_base.scss'
+  - '_clearfix.scss'
+  - '_modals.scss'
+  - '_syntax-highlighting.scss'
+
+linters:
+  ColorVariable:
+    enabled: false
+  ImportantRule:
+    enabled: false
+  LeadingZero:
+    enabled: false
+  PlaceholderInExtend:
+    enabled: false
+  UnnecessaryMantissa:
+    enabled: false
+  UrlFormat:
+    enabled: false

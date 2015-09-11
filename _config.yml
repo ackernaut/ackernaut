@@ -1,0 +1,16 @@
+
+# Site settings
+title: Ackernaut
+email: ackernaut@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Ackernaut: Learning, making and thinking in the 21st century
+baseurl:          /ackernaut
+url:              http://ackernaut.github.io
+permalink:        pretty
+twitter_username: ackernaut
+github_username:  ackernaut
+port: 4050
+
+# Build settings
+markdown: kramdown
+exclude:  [node_modules]

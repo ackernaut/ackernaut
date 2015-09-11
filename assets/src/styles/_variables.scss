@@ -1,0 +1,94 @@
+
+// _variables.scss
+
+// Colors
+// ------
+
+$ui-light:  #fff;
+$ui-dark:   #000;
+
+// Ackernaut
+// ---------
+
+$aknt-light-gray: #e6f2f2;
+$aknt-medium-gray: #aecccc;
+$aknt-dark-gray: #364d4d;
+$aknt-darkest-gray: #293333;
+
+$aknt-light-green: #7db3b3;
+$aknt-medium-green: #598080;
+
+$aknt-brand-green-dark: #66cccc;
+$aknt-brand-green-light: #a1e5e5;
+$aknt-brand-green: #73e5e5;
+
+$link-color: $aknt-brand-green-dark;
+$text-color: #111;
+$brand-color: $link-color;
+
+// Blocks
+// ------
+
+$block-xs: 600px;
+$block-sm: 768px;
+$block-md: 1024px;
+$block-lg: 1280px;
+$block-xl: 1400px;
+
+// Box shadows
+// -----------
+
+$box-shadow: 0 0 1px 1px rgba(0, 0, 0, .15);
+
+// Breakpoints
+// -----------
+
+$bp-screen-xs-min: $block-xs;
+$bp-screen-sm-min: $block-sm;
+$bp-screen-md-min: $block-md;
+$bp-screen-lg-min: $block-lg;
+$bp-screen-xl-min: $block-xl;
+
+// Icons
+// -----
+
+$icon-size-1: 14px;
+$icon-size-2: ($icon-size-1 * 2);
+$icon-size-3: ($icon-size-1 * 3);
+$icon-size-4: ($icon-size-1 * 4);
+$icon-size-5: ($icon-size-1 * 5);
+
+// Layout
+// ------
+
+$aknt-max-width: 1400px;
+
+// Typography
+// ----------
+
+$base-font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-line-height: 1.5;
+
+$font-weight-thin:       100;
+$font-weight-light:      300;
+$font-weight-normal:     400;
+$font-weight-bold:       700;
+$font-weight-ultra-bold: 900;
+
+$text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+$text-shadow-dark: 0 1px 0 rgba(0, 0, 0, .35);
+
+// z-index
+// -------
+
+$zi-1:   100;
+$zi-2:   200;
+$zi-3:   300;
+$zi-4:   400;
+$zi-5:   500;
+$zi-6:   600;
+$zi-7:   700;
+$zi-8:   800;
+$zi-9:   900;
+$zi-10: 1000;
