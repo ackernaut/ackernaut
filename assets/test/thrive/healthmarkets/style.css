@@ -709,7 +709,7 @@ h5,
 
 @media screen and (max-width: 767px) {
   .header-nav-block a {
-    color: #444;
+    color: #4d4d4d;
     display: block;
     text-decoration: none;
   }
@@ -1016,12 +1016,12 @@ h5,
 
 .hm-list-icon:hover,
 .hm-list-icon:focus {
-  color: #444;
+  color: #4d4d4d;
 }
 
 .hm-list-icon:hover .bar,
 .hm-list-icon:focus .bar {
-  background-color: #444;
+  background-color: #4d4d4d;
 }
 
 .has-responsive-menu .hm-list-icon {
@@ -4826,7 +4826,7 @@ h4.ui-accordion-header a:hover {
     text-decoration: none;
   }
   #content #inner-content #agents a:hover {
-    color: #017ed6;
+    color: #0065bd;
     text-decoration: underline;
   }
   #content #inner-content #agents tr {
@@ -4844,7 +4844,7 @@ h4.ui-accordion-header a:hover {
     padding: 20px;
   }
   #content #inner-content #agents tr td .phoneLink {
-    color: #017ed6;
+    color: #0065bd;
     font-size: 19px;
   }
   #content #inner-content #agents tr td .websiteLink {
@@ -4972,7 +4972,7 @@ h4.ui-accordion-header a:hover {
     margin-top: 2.2em;
   }
   .widgettitle {
-    border-bottom: 2px solid #444;
+    border-bottom: 2px solid #4d4d4d;
     margin-bottom: .75em;
   }
   .widget {
