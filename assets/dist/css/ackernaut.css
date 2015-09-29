@@ -23,7 +23,7 @@ ul {
 
 body {
   color: #111;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -122,9 +122,10 @@ address {
 .heading {
   color: #7db3b3;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1;
   margin: 2rem 0 0.2em;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 30rem) {
@@ -136,7 +137,6 @@ address {
 .tagline {
   color: #598080;
   font-size: 1.25rem;
-  font-weight: 700;
   line-height: 1.25;
   margin: 0 0 2em;
 }
@@ -161,6 +161,7 @@ address {
 
 .in-the-wild {
   color: #293333;
+  font-weight: 600;
   margin: 2em 0;
 }
 
