@@ -2263,13 +2263,13 @@ h5,
 }
 
 .bones_page_navi li a:hover, .bones_page_navi li a:focus {
-  color: #f01d4f;
+  color: #ca005d;
   text-decoration: underline;
 }
 
 .bones_page_navi li.bpn-current {
   padding: 3px 6px;
-  border-bottom: 2px solid #f01d4f;
+  border-bottom: 2px solid #ca005d;
   position: relative;
 }
 
@@ -2571,7 +2571,7 @@ a {
   display: block;
   position: absolute;
   top: 48%;
-  color: #ef7d2c;
+  color: #f5802d;
   border: 0px;
   width: 30px;
   height: 30px;
@@ -2673,13 +2673,11 @@ a {
   height: 40px;
   font-size: 13px;
   border-radius: 5px;
-  -moz-border-radius: 5px;
   border-color: #6d6e71;
 }
 
 #zipInput {
   border-radius: 5px;
-  -moz-border-radius: 5px;
   border: 1px solid #6d6e71;
 }
 
@@ -2695,7 +2693,7 @@ a {
 }
 
 #innerbox #close:hover, #innerbox2 #close2:hover {
-  color: #ef7d2c;
+  color: #f5802d;
   text-decoration: none;
 }
 
@@ -2881,7 +2879,7 @@ a {
 }
 
 #smallbiz h5 {
-  color: #f3803a;
+  color: #f5802d;
   font-size: 18px;
   margin: 0px 0px !important;
   padding: 0px 0px !important;
@@ -5996,7 +5994,7 @@ h4.ui-accordion-header a:hover {
     -ms-filter: none !important;
   }
   a, a:visited {
-    color: #444 !important;
+    color: #4d4d4d !important;
     text-decoration: underline;
   }
   a:after, a:visited:after {
