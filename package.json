@@ -33,6 +33,12 @@
     "gulp-sass": "^2.0.4",
     "gulp-scsslint": "0.0.5",
     "gulp-uglify": "^1.2.0",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "jquery-colorbox": "^1.6.3",
+    "tachyons-base": "^1.2.0",
+    "tachyons-clears": "^1.1.0",
+    "tachyons-display": "^2.1.0",
+    "tachyons-floats": "^1.1.0",
+    "tachyons-widths": "^3.0.3"
   }
 }

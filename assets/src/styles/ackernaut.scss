@@ -3,8 +3,6 @@
 
 @charset 'utf-8';
 
-// Design by eight90: http://d.pr/i/1c2U9
-
 // Variables and mixins
 // --------------------
 
@@ -18,11 +16,21 @@
   'mixins/text-overflow'
 ;
 
+// Tachyons
+// --------
+
+@import 'tachyons-base/tachyons-base';
+@import 'tachyons-clears/tachyons-clears';
+@import 'tachyons-display/tachyons-display';
+@import 'tachyons-floats/tachyons-floats';
+@import 'tachyons-widths/tachyons-widths';
+
 // Patterns
 // --------
 
 @import
-  'base'
+  'base',
+  'font-weight'
 ;
 
 // Sections
